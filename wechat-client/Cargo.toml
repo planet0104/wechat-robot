@@ -1,0 +1,18 @@
+[package]
+name = "wchat-client"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tungstenite = "0.15.0"
+anyhow = "1"
+image = "0.23.14"
+env_logger = "0.9.0"
+log = "0.4.14"
+chrono = "0.4.19"
+bincode = "2.0.0-alpha.0"
+brotli = "3.3.2"
+url = "2.2.2"
+qr2term = "0.2.2"
